@@ -1,0 +1,36 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__content{
+        max-width:800px;
+        display: flex;
+        justify-content: center;
+        padding-top: 16px;
+    }
+    &__image{
+        max-height: 400px;
+        max-width: 300px;
+        width: 100%;
+        object-fit: scale-down;
+    }
+    &__info{
+        padding-left:16px;
+    }
+    &__name{
+        margin:0;
+        font-size: 48px;
+        letter-spacing: 0.05em;
+        color: #2c467f;
+    }
+    &__description{
+        font-size: 18px;
+    }
+}
+.table-info{
+    &__label{
+        font-size: 14px;
+        color: #c1c4cc;
+    }
+}
+

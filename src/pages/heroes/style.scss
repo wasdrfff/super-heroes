@@ -1,0 +1,28 @@
+.heroes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    &__content{
+        max-width:800px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 16px;
+        margin-bottom: 32px;
+    }
+    &__button{
+        min-width: 140px;
+        text-align: center;
+        width: 30%;
+        height: 45px;
+        background: #2c467f;
+        line-height: 45px;
+        border: none;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
